@@ -47,12 +47,12 @@
                                 if (order == "+")
                                 {
 
-                                    Console.Write("{0} ", plus(number[rowcalculate, colcalculate], number2[rowcalculate, colcalculate]));
+                                    Console.Write("{0:0.0} ", plus(number[rowcalculate, colcalculate], number2[rowcalculate, colcalculate]));
                                 }
                                 else
                                 {
 
-                                    Console.Write("{0} ", minus(number[rowcalculate, colcalculate], number2[rowcalculate, colcalculate]));
+                                    Console.Write("{0:0.0} ", minus(number[rowcalculate, colcalculate], number2[rowcalculate, colcalculate]));
                                 }
 
 
